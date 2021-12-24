@@ -1,11 +1,11 @@
-from functools import lru_cache
+from functools import cache
 
 TOTAL_TIME = 256
 CYCLE_TIME = 7
 NEWBORN_CYCLE_TIME = 8
 
 
-@lru_cache(None)
+@cache
 def offspring_size(initial, time_left):
     total = 1
     curr_time_left = time_left - initial - 1
