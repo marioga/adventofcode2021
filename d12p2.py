@@ -1,4 +1,4 @@
-from collections import Counter, defaultdict
+from collections import defaultdict
 
 START_NODE = 'start'
 END_NODE = 'end'
